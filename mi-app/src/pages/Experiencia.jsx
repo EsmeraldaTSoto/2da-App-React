@@ -4,7 +4,7 @@ export default function Experiencia() {
       <h2>Experiencia Personal</h2>
       <div className="video-wrapper">
         <iframe
-          src="https://www.youtube.com/embed/TU_ID_DE_VIDEO"
+          src="https://www.youtube.com/embed/RANTfM2gWYc"
           title="Experiencia Personal"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
