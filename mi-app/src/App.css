@@ -87,3 +87,19 @@
 .lista { list-style: none; padding: 0; margin: 16px 0 0; }
 .lista li { padding: 10px 14px; border-bottom: 1px solid #e5e7eb; }
 .lista li:nth-child(even) { background: #f9fafb; }
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  margin-top: 16px;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: none;
+}

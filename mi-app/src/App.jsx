@@ -4,6 +4,7 @@ import Inicio from './pages/Inicio';
 import Sumadora from './pages/Sumadora';
 import NumeroALetras from './pages/NumeroALetras';
 import Tabla from './pages/Tabla';
+import Experiencia from './pages/Experiencia';
 import './App.css';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
           <NavLink to="/sumadora">Sumadora</NavLink>
           <NavLink to="/letras">Número a Letras</NavLink>
           <NavLink to="/tabla">Tabla de Multiplicar</NavLink>
+          <NavLink to="/experiencia">Experiencia Personal</NavLink>
         </aside>
 
         <main className="contenido">
@@ -29,6 +31,7 @@ export default function App() {
             <Route path="/sumadora" element={<Sumadora />} />
             <Route path="/letras" element={<NumeroALetras />} />
             <Route path="/tabla" element={<Tabla />} />
+            <Route path="/experiencia" element={<Experiencia />} />
           </Routes>
         </main>
       </div>
